@@ -1,0 +1,97 @@
+html {
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+}
+
+div#sidemenu{
+    position: relative;
+    display: none;
+    width: 0;
+    height: 100vh;
+    padding: 10px;
+    background-color: #285244;
+    float: right;
+    transition: 300ms;
+}
+
+div.header{
+    background-color: #66CDAA;
+    width:100%;
+    height: 110px;
+}
+
+div#heading{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    width: 250px;
+    padding: 30px;
+    float: left;
+}
+
+img#sidemenubutton{
+    border-radius: 50%;
+    width: 40px;
+    height: auto;
+    padding: 10px;
+    top: 25px;
+    right: 30px;
+    float: right;
+    position: absolute;
+    display: initial;
+}
+
+img#sidemenubutton:hover{
+    background-color: #285244;
+}
+
+img#closemenubutton{
+    border-radius: 50%;
+    width: 40px;
+    height: auto;
+    padding: 10px;
+    position: absolute;
+    display: initial;
+}
+
+img#closemenubutton:hover{
+    background-color: #66CDAA;
+}
+
+div#sidemenu-content{
+    display: none;
+}
+
+button#loginbutton{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    width: 100%;
+    position: relative;
+    top: 10vh;
+    padding: 10%;
+    border-radius: 100px;
+    border: none;
+    background-color: #285244;
+}
+
+button#loginbutton:hover{
+    background-color: #66CDAA;
+}
+
+button#createacc{
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    width: 100%;
+    position: relative;
+    top: 12vh;
+    padding: 10%;
+    border-radius: 100px;
+    border: none;
+    background-color: #285244;
+}
+
+button#createacc:hover{
+    background-color: #66CDAA;
+}
